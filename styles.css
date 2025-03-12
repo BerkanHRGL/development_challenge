@@ -16,7 +16,6 @@ body {
     align-items: center;
     padding: 30px 24px; 
     background-color: #F1EFE7;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .logo-container {
@@ -41,7 +40,7 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: #000;
+    color: #222097;
     font-weight: 500;
     font-size: 22px;
 }
@@ -52,18 +51,6 @@ body {
 
 .shopping-button {
     flex: 0 0 auto;
-}
-
-.shop-btn {
-    display: flex;
-    align-items: center;
-    background-color: #0008ff;
-    color: #F1EFE7;
-    text-decoration: none;
-    padding: 12px 20px;
-    border-radius: 8px;
-    font-weight: 600;
-    font-size: 16px;
 }
 
 .main-content {
