@@ -66,20 +66,86 @@ body {
     font-size: 16px;
 }
 
-.dropdown-icon {
-    font-size: 10px;
-    margin-left: 8px;
+.main-content {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 24px;
 }
 
-.arrow-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #000;
+.featured-articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.article {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    height: 680px;
+    background-size: cover;
+    background-position: center;
     color: white;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    margin-left: 12px;
+}
+
+.article-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 32px;
+    max-width: 80%;
+}
+
+.article-tag {
+    display: inline-block;
     font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.article-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.arrow-icon-text {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.modernist-article {
+    background-image: url('imgs/fashion_picture.png');
+}
+
+.horizon-article {
+    background-image: url('imgs/fashion_image.png');
+}
+
+.featured-collection {
+    margin-top: 24px;
+}
+
+.desire-article {
+    background-image: url('imgs/pexels-kowalievska-1126993.jpg');
+    height: 600px;
+}
+
+@media (max-width: 768px) {
+    .featured-articles {
+        grid-template-columns: 1fr;
+    }
+    
+    .nav-links {
+        display: none; 
+    }
+    
+    .article {
+        height: 400px;
+    }
+    
+    .article-title {
+        font-size: 28px;
+    }
 }
