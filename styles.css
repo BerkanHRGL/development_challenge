@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #F1EFE7;
+    font-family: 'Noto Sans', 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 24px; 
+    background-color: #F1EFE7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.logo-container {
+    flex: 0 0 auto;
+}
+
+.logo {
+    height: 70px;
+    width: auto;
+}
+
+.nav-links {
+    flex: 1;
+    margin-left: 40px;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.shopping-button {
+    flex: 0 0 auto;
+}
+
+.shop-btn {
+    display: flex;
+    align-items: center;
+    background-color: #0008ff;
+    color: #F1EFE7;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.dropdown-icon {
+    font-size: 10px;
+    margin-left: 8px;
+}
+
+.arrow-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    color: white;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-left: 12px;
+    font-size: 14px;
+}
